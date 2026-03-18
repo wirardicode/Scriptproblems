@@ -15,7 +15,8 @@ Script ini ditujukan untuk membantu dalam membuat script pembuatan soal/problem 
     Daftar isi
         A. Membuat json dasar
         B. Membuat Pilihan ganda (single selection)
-        C. Pilihan Ganda (multi selection)
+        C. Jawaban S  ingkat
+        E. Jawaban Panjang
 </br>
 
 ##### Membuat Pilihan ganda (single selection)
