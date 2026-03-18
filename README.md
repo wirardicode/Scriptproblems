@@ -15,7 +15,7 @@ Script ini ditujukan untuk membantu dalam membuat script pembuatan soal/problem 
     Daftar isi
         A. Membuat json dasar
         B. Membuat Pilihan ganda (single selection)
-        C. Jawaban S  ingkat
+        C. Jawaban Singkat
         E. Jawaban Panjang
 </br>
 
@@ -113,7 +113,7 @@ ____
       "prompt": "soal",
       "publishing": "draft || published",
       "kind": "writing",
-      "type": "writingLong",
+      "type": "writingLong || writingEssay",
       "explanation": "", //tidak penting
       "config": {
         "caseSensitive": false,
