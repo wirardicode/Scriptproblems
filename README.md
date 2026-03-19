@@ -143,3 +143,63 @@ ____
       "hints": [] 
     }
 ```
+#### Grouping 
+____
+
+```bash
+  {
+      "id": "69bba18b588ec5f7466bd531",
+      "name": "nama problem",
+      "description": "",
+      "prompt": "soal nya",
+      "publishing": "draft || published",
+      "kind": "grouping",
+      "type": "groupingChoice",
+      "explanation": "",
+      "config": {
+        "correct": "all || any || count || points",
+        "minimums": {
+          "count": 1,
+          "point": 1
+        },
+        "options": [ //pilihan
+          {
+            "content": "<p>Benar</p>",
+            "id": "id nya" // wajib ada id
+          },
+          {
+            "content": "<p>Salah</p>",
+            "id": "id nya" // wajib ada id
+          }
+        ],
+        "items": [
+          {
+            "config": {
+              "corrects": [
+                "id dari object di arry option/pilihan" //sesuaikan kalo value berniali bener pakai id yang benar dsb
+              ]
+            },
+            "content": "<p>hello world</p>",
+            "id": "69bba28a45d5f068b25b3f4e", //id items gak terlalu ngaruh
+            "point": 1 //point pilihan
+          },
+          {
+            "config": {
+              "corrects": [
+                "id dari object di arry option/pilihan"//sesuaikan kalo value berniali bener pakai id yang benar dsb
+              ]
+            },
+            "content": "<p>hello sir</p>",
+            "id": "69bba31e45d5f068b25b3f8e", //id items gak terlalu ngaruh
+            "point": 0 //point pilihan
+          }
+        ],
+        "shuffleItems": false,
+        "shuffleOptions": false
+      },
+      "identifier": "",
+      "pointCustom": null,
+      "options": [],
+      "hints": []
+    }
+```
